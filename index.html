@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Anterior Wood Works — Crafted with Precision, Made for Generations</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600;700&family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="topbar">
+  <div class="topbar__track">
+    <span>Free Delivery on Orders Over $199</span>
+    <span>30-Day Easy Returns</span>
+    <span>Excellent Customer Support</span>
+  </div>
+</div>
+
+<header class="site-header" id="siteHeader">
+  <div class="header__inner">
+    <button class="hamburger" id="hamburger" aria-label="Open menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+
+    <a href="index.html" class="logo">
+      <span class="logo__icon">AV</span>
+      <span class="logo__text">
+        <span class="logo__mark">ANTERIOR</span>
+        <span class="logo__sub">WOOD WORKS</span>
+      </span>
+    </a>
+
+    <ul class="main-nav" id="mainNav">
+      <li><a href="index.html">Home</a></li>
+      <li class="has-dropdown">
+        <a href="category.html?cat=sofas">Shop ▾</a>
+        <div class="dropdown-menu">
+          <a href="category.html?cat=sofas">Sofas</a>
+          <a href="category.html?cat=dining">Dining Sets</a>
+          <a href="category.html?cat=beds">Beds</a>
+          <a href="category.html?cat=wardrobes">Wardrobes</a>
+          <a href="category.html?cat=coffee-tables">Coffee Tables</a>
+          <a href="category.html?cat=recliners">Recliners</a>
+          <a href="category.html?cat=tv-units">TV Units</a>
+          <a href="category.html?cat=doors">Doors</a>
+        </div>
+      </li>
+      <li class="has-dropdown">
+        <a href="category.html?cat=sofas">Categories ▾</a>
+        <div class="dropdown-menu">
+          <a href="category.html?cat=sofas" data-nav="sofas">Sofas</a>
+          <a href="category.html?cat=dining" data-nav="dining">Dining Sets</a>
+          <a href="category.html?cat=beds" data-nav="beds">Beds</a>
+          <a href="category.html?cat=wardrobes" data-nav="wardrobes">Wardrobes</a>
+          <a href="category.html?cat=coffee-tables" data-nav="coffee-tables">Coffee Tables</a>
+          <a href="category.html?cat=recliners" data-nav="recliners">Recliners</a>
+          <a href="category.html?cat=tv-units" data-nav="tv-units">TV Units</a>
+          <a href="category.html?cat=doors" data-nav="doors">Doors</a>
+        </div>
+      </li>
+      <li><a href="index.html#about">About Us</a></li>
+      <li><a href="index.html#testimonials">Reviews</a></li>
+      <li><a href="index.html#contact">Contact Us</a></li>
+    </ul>
+
+    <div class="header__icons">
+      <button class="icon-btn" id="searchToggle" aria-label="Search">
+        <svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+      </button>
+      <a class="icon-btn wish-btn" href="wishlist.html" aria-label="Wishlist">
+        <svg viewBox="0 0 24 24"><path d="M12 20s-7-4.5-9.3-8.8C1.2 8 2.4 5 5.6 4.4 8 4 10 5 12 7c2-2 4-3 6.4-2.6C21.6 5 22.8 8 21.3 11.2 19 15.5 12 20 12 20z"/></svg>
+        <span class="wish-count" id="wishCount">0</span>
+      </a>
+      <a class="icon-btn cart-btn" href="cart.html" aria-label="Cart">
+        <svg viewBox="0 0 24 24"><path d="M6 6h15l-1.5 9h-12z"/><path d="M6 6 5 2H2"/><circle cx="9" cy="20" r="1.4"/><circle cx="17" cy="20" r="1.4"/></svg>
+        <span class="cart-count" id="cartCount">0</span>
+      </a>
+    </div>
+  </div>
+
+  <div class="search-panel" id="searchPanel">
+    <input type="text" placeholder="Search for sofas, beds, wardrobes…">
+    <button id="searchClose" aria-label="Close search">&times;</button>
+  </div>
+</header>
+
+
+<section class="hero" id="home">
+  <div class="hero__media" id="heroMedia">
+    <video id="heroVideo" autoplay muted loop playsinline preload="auto"
+      poster="https://images.ctfassets.net/nnkxuzam4k38/72FI1uoNvyy66AU9lmkxD0/29545557828129fd31864cdd486457f4/white-radial-gradient.jpg">
+      <source src="videos/hero.mp4" type="video/mp4">
+    </video>
+    <img class="hero__fallback" src="https://images.unsplash.com/photo-1567538096630-e0c55bd6374c?q=80&w=1600&auto=format&fit=crop" alt="Elegant living room with maroon armchair and wooden coffee table, showcasing Anterior Wood Works craftsmanship">
+  </div>
+  <div class="hero__overlay"></div>
+
+  <div class="hero__content reveal">
+    <p class="eyebrow">New Season Collection</p>
+    <h1>Crafted with Precision,<br><span>Made for Generations.</span></h1>
+    <p class="hero__desc">Elegant designs. Premium quality. Timeless comfort for your home — furniture built to be lived with, not just looked at.</p>
+    <div class="hero__cta">
+      <a href="category.html?cat=sofas" class="btn btn--solid">Shop Collection</a>
+      <a href="#categories" class="btn btn--outline">Explore Categories</a>
+    </div>
+    <div class="hero__perks">
+      <div><svg viewBox="0 0 24 24"><path d="M12 2 3 6v6c0 5 4 8.5 9 10 5-1.5 9-5 9-10V6z"/></svg>Premium Quality</div>
+      <div><svg viewBox="0 0 24 24"><path d="M3 12a9 9 0 1 0 9-9"/><path d="M3 5v7h7"/></svg>Durable &amp; Long Lasting</div>
+      <div><svg viewBox="0 0 24 24"><path d="M12 2 2 7l10 5 10-5z"/><path d="M2 17l10 5 10-5"/><path d="M2 12l10 5 10-5"/></svg>Eco Friendly Materials</div>
+      <div><svg viewBox="0 0 24 24"><rect x="1" y="7" width="14" height="10" rx="1"/><path d="M15 10h3l3 3v4h-6z"/><circle cx="6" cy="19" r="1.6"/><circle cx="17.5" cy="19" r="1.6"/></svg>Fast &amp; Free Delivery</div>
+    </div>
+  </div>
+</section>
+
+<section class="trust-bar">
+  <div class="trust-item reveal">
+    <svg viewBox="0 0 24 24"><path d="M12 2 3 6v6c0 5 4 8.5 9 10 5-1.5 9-5 9-10V6z"/></svg>
+    <div><strong>Premium Quality</strong><span>Finest materials</span></div>
+  </div>
+  <div class="trust-item reveal reveal-delay-1">
+    <svg viewBox="0 0 24 24"><rect x="1" y="7" width="14" height="10" rx="1"/><path d="M15 10h3l3 3v4h-6z"/><circle cx="6" cy="19" r="1.6"/><circle cx="17.5" cy="19" r="1.6"/></svg>
+    <div><strong>Free Delivery</strong><span>On orders over $199</span></div>
+  </div>
+  <div class="trust-item reveal reveal-delay-2">
+    <svg viewBox="0 0 24 24"><path d="M3 12a9 9 0 1 0 9-9"/><path d="M3 5v7h7"/></svg>
+    <div><strong>Easy Returns</strong><span>30-day return policy</span></div>
+  </div>
+  <div class="trust-item reveal reveal-delay-3">
+    <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 3"/></svg>
+    <div><strong>24/7 Support</strong><span>We're here to help</span></div>
+  </div>
+</section>
+
+<section class="section category-section" id="categories">
+  <div class="section__head reveal">
+    <h2>Shop by Category</h2>
+    <span class="divider"></span>
+  </div>
+  <div class="category-grid" id="categoryGrid"></div>
+</section>
+
+<section class="section arrivals-section" id="bestsellers">
+  <div class="section__head reveal">
+    <h2>Best Selling Products</h2>
+    <span class="divider"></span>
+  </div>
+  <div class="slider">
+    <button class="slider__nav slider__nav--prev" id="prevBtn" aria-label="Previous products">&#10094;</button>
+    <div class="slider__track" id="sliderTrack"></div>
+    <button class="slider__nav slider__nav--next" id="nextBtn" aria-label="Next products">&#10095;</button>
+  </div>
+</section>
+
+<section class="section" id="about">
+  <div class="promo-split reveal">
+    <div class="promo-split__img">
+     <!-- last image -->
+      <img src="https://illustrarch.com/wp-content/uploads/2024/12/Modern_Furniture_Design_in_a_family_house_room-3-min.jpg">
+    </div>
+    <div class="promo-split__content">
+      <p class="eyebrow eyebrow--light">Our Story</p>
+      <h2>Make Your Home<br>More Beautiful</h2>
+      <p>Discover furniture that blends luxury, comfort, and durability — every piece hand-finished by craftsmen who treat wood like a material worth respecting.</p>
+      <a href="category.html?cat=sofas" class="btn btn--solid">Explore Collection</a>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="testimonials">
+  <div class="section__head reveal">
+    <h2>What Our Customers Say</h2>
+    <span class="divider"></span>
+  </div>
+  <div class="testimonial-grid">
+    <div class="testimonial-card reveal">
+      <div class="stars">★★★★★</div>
+      <p>"Excellent quality and finish. Totally worth every penny — the sofa looks even better in person."</p>
+      <div class="testimonial-author">
+        <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?q=80&w=200&auto=format&fit=crop" alt="Sarah M.">
+        <strong>Sarah M.</strong>
+      </div>
+    </div>
+    <div class="testimonial-card reveal reveal-delay-1">
+      <div class="stars">★★★★★</div>
+      <p>"Beautiful design and sturdy build quality. Highly recommended for anyone furnishing a new home."</p>
+      <div class="testimonial-author">
+        <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=200&auto=format&fit=crop" alt="James T.">
+        <strong>James T.</strong>
+      </div>
+    </div>
+    <div class="testimonial-card reveal reveal-delay-2">
+      <div class="stars">★★★★★</div>
+      <p>"Delivery was on time and product quality is outstanding. The wood finish is exactly as pictured."</p>
+      <div class="testimonial-author">
+        <img src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?q=80&w=200&auto=format&fit=crop" alt="Ayesha R.">
+        <strong>Ayesha R.</strong>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="site-footer" id="contact">
+  <div class="footer__grid">
+    <div class="footer__brand">
+      <a href="index.html" class="logo">
+        <span class="logo__icon">AV</span>
+        <span class="logo__text">
+          <span class="logo__mark">ANTERIOR</span>
+          <span class="logo__sub">WOOD WORKS</span>
+        </span>
+      </a>
+      <p>We create luxury wooden furniture that brings comfort, style, and elegance to your space.</p>
+      <div class="social">
+        <a href="#" aria-label="Facebook">FB</a>
+        <a href="#" aria-label="Instagram">IG</a>
+        <a href="#" aria-label="Pinterest">PT</a>
+        <a href="#" aria-label="YouTube">YT</a>
+      </div>
+    </div>
+    <div class="footer__col">
+      <h4>Quick Links</h4>
+      <a href="index.html">Home</a>
+      <a href="category.html?cat=sofas">Shop</a>
+      <a href="category.html?cat=sofas">Categories</a>
+      <a href="index.html#about">About Us</a>
+      <a href="index.html#contact">Contact</a>
+    </div>
+    <div class="footer__col">
+      <h4>Customer Service</h4>
+      <a href="cart.html">Your Bag</a>
+      <a href="wishlist.html">Wishlist</a>
+      <a href="checkout.html">Checkout</a>
+      <a href="#">Returns &amp; Refunds</a>
+      <a href="#">Track Order</a>
+    </div>
+    <div class="footer__col">
+      <h4>My Account</h4>
+      <a href="#">My Account</a>
+      <a href="cart.html">Order History</a>
+      <a href="wishlist.html">Wishlist</a>
+      <a href="#">Track Order</a>
+    </div>
+    <div class="footer__col">
+      <h4>We Accept</h4>
+      <div class="payment-icons">
+        <span>VISA</span><span>MC</span><span>AMEX</span><span>PayPal</span><span>APay</span><span>GPay</span>
+      </div>
+    </div>
+  </div>
+  <div class="footer__bottom">
+    <p>&copy; 2026 Anterior Wood Works. All Rights Reserved.</p>
+    <p>Owner: Abid Hussain</p>
+  </div>
+</footer>
+
+<button class="back-to-top" id="backToTop" aria-label="Back to top">
+  <svg viewBox="0 0 24 24"><path d="M12 19V5"/><path d="M5 12l7-7 7 7"/></svg>
+</button>
+
+
+<script src="products.js"></script>
+<script src="store.js"></script>
+<script src="common.js"></script>
+<script src="home.js"></script>
+</body>
+</html>
