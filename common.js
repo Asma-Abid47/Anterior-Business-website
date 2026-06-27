@@ -113,9 +113,7 @@ document.addEventListener("DOMContentLoaded", () => {
     if (playPromise !== undefined){
       playPromise.catch(showFallback);
     }
-    setTimeout(() => {
-      if (heroVideo.readyState === 0) showFallback();
-    }, 2500);
+    
   }
 
   /* ---- animated counters (trust bar numbers, if present) ---- */

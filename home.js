@@ -83,9 +83,7 @@ document.addEventListener("DOMContentLoaded", () => {
       if (playPromise !== undefined){
         playPromise.catch(showFallback);
       }
-      setTimeout(() => {
-        if (video.readyState === 0) showFallback();
-      }, 2500);
+      
     });
   }
 
