@@ -332,7 +332,7 @@ const CATEGORY_META = {
   sofas: {
     title: "Sofas", tagline: "Deep seats and solid frames, built to anchor your living room for years.",
     hero: "https://roco.pk/wp-content/uploads/2024/09/Lavender-Pure-Leather-Sofa.webp",
-    video: "videos/Sofanew.mp4", from: 389
+    video: "videos/SOFA.mp4", from: 389
   },
   dining: {
     title: "Dining Sets", tagline: "Tables and chairs crafted in solid wood, made for long meals and longer memories.",
@@ -342,7 +342,7 @@ const CATEGORY_META = {
   beds: {
     title: "Beds", tagline: "Frames and headboards built from solid timber, designed around real rest.",
     hero: "https://atozfurniture.ae/images/products/prod_777/margaret-modern-and-contemporary-bed-main.jpg",
-    video: "videos/Bednew.mp4", from: 449
+    video: "videos/BED.mp4", from: 449
   },
   wardrobes: {
     title: "Wardrobes", tagline: "Storage built to last, with finishes that fit any bedroom.",
@@ -367,7 +367,7 @@ const CATEGORY_META = {
   doors: {
     title: "Doors", tagline: "Solid wood entry, sliding, and panel doors finished by hand.",
     hero: "https://i.pinimg.com/originals/05/d2/bc/05d2bccbd0c62c2cf5f6edd3692222ae.jpg",
-    video: "videos/Doornew.mp4", from: 299
+    video: "videos/DOOR.mp4", from: 299
   }
 };
 
