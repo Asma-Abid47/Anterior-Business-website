@@ -332,42 +332,42 @@ const CATEGORY_META = {
   sofas: {
     title: "Sofas", tagline: "Deep seats and solid frames, built to anchor your living room for years.",
     hero: "https://roco.pk/wp-content/uploads/2024/09/Lavender-Pure-Leather-Sofa.webp",
-    video: "videos/SOFA.mp4", from: 389
+    video: "SOFA.mp4", from: 389
   },
   dining: {
     title: "Dining Sets", tagline: "Tables and chairs crafted in solid wood, made for long meals and longer memories.",
     hero: "https://habitt.com/cdn/shop/files/19_3b2856a1-2a1c-4239-8387-b42849d54d58.jpg?v=1775045029",
-    video: "videos/Diningnew.mp4", from: 379
+    video: "Diningnew.mp4", from: 379
   },
   beds: {
     title: "Beds", tagline: "Frames and headboards built from solid timber, designed around real rest.",
     hero: "https://atozfurniture.ae/images/products/prod_777/margaret-modern-and-contemporary-bed-main.jpg",
-    video: "videos/BED.mp4", from: 449
+    video: "BED.mp4", from: 449
   },
   wardrobes: {
     title: "Wardrobes", tagline: "Storage built to last, with finishes that fit any bedroom.",
     hero: "https://media.istockphoto.com/id/2157081744/photo/modern-built-in-wardrobe-closet-with-personal-accessories.jpg?s=612x612&w=0&k=20&c=fC5Z3S3cOmudbTzvc8fvK9ph18LlNBOUYnFc70QuyBE=",
-    video: "videos/Wardrobenew.mp4", from: 199
+    video: "Wardrobenew.mp4", from: 199
   },
   "coffee-tables": {
     title: "Coffee Tables", tagline: "Centerpiece tables in solid wood, marble, and stone for every living room.",
     hero: "https://i5.walmartimages.com/asr/2c936db8-b9c3-4946-b090-eeea95de556e.61786b68a2400c057197079ebff88573.jpeg?odnHeight=768&odnWidth=768&odnBg=FFFFFF",
-    video: "videos/Coffeenew.mp4", from: 179
+    video: "Coffeenew.mp4", from: 179
   },
   recliners: {
     title: "Recliners", tagline: "Statement seating in wood, leather, rattan, and velvet — built to relax into.",
     hero: "https://www.nilkamalhomes.com/cdn/shop/articles/What_Are_Recliners_and_What_Are_The_Types_Of_It_a8b90922-6bc8-47fd-99fa-d512405c15e9.jpg?v=1777545592&width=750",
-    video: "videos/Recnew.mp4", from: 169
+    video: "Recnew.mp4", from: 169
   },
   "tv-units": {
     title: "TV Units", tagline: "Media furniture that hides the clutter and keeps the focus on the screen.",
     hero: "https://img.interiorcompany.com/interior/webproduct/contemporary-canadian-walnut-tv-unit-design-with-marble-inspired-panels.png",
-    video: "videos/Tvnew.mp4", from: 189
+    video: "Tvnew.mp4", from: 189
   },
   doors: {
     title: "Doors", tagline: "Solid wood entry, sliding, and panel doors finished by hand.",
     hero: "https://i.pinimg.com/originals/05/d2/bc/05d2bccbd0c62c2cf5f6edd3692222ae.jpg",
-    video: "videos/DOOR.mp4", from: 299
+    video: "DOOR.mp4", from: 299
   }
 };
 
